@@ -20,42 +20,49 @@ export default function About() {
         </p>
       </div>
 
-      <div
-        style={{
-          margin: "10px",
-          width: "100%",
-          height: "auto",
-          display: "flex",
-          justifyContent: "space-evenly",
-        }}
-      >
-
-          <div
-        style={{
-          margin: "10px",
-          width: "90%",
-          height: "auto",
-          display: "flex",
-          justifyContent: "space-evenly",
-        }}
-      >
+      <div>
         <div
-          class="card bg-primary-subtle"
-          align="center"
-          style={{ marginTop: "10px", width: "40%", height: "auto"}}
+          style={{
+            margin: "10px",
+            width: "90%",
+            height: "auto",
+            display: "flex",
+            justifyContent: "space-evenly",
+          }}
         >
-          <h1><strong>Psychology Background</strong></h1>
-          <img src="src/components/images/The Journey Of Life.jpg" alt="The journey of life" />
-          <br />
-          <p><a href="https://www.linkedin.com/in/uwttn/">LinkedIn</a></p>
-          <p><a href="https://github.com/Uwttn">GitHub</a></p>
+          <div
+            class="card bg-primary-subtle"
+            align="center"
+            style={{ marginTop: "10px", width: "40%", height: "auto" }}
+          >
+            <h1>
+              <strong>Psychology Background</strong>
+            </h1>
+            <p>The "Journey of Life" can be seen as a path we all walk, filled with different experiences and challenges. Just like moving through various landscapes—a desert, an ocean, or a dense jungle—each part of life brings its own difficulties and rewards.</p>
+<p>
+At times, we might feel lost or uncertain, like wandering through a desert. Other times, we might feel overwhelmed, like being caught in stormy seas. We face obstacles, make mistakes, and sometimes get stuck in difficult situations. But each experience, whether easy or tough, helps us learn and grow.</p>
+<p>
+Ultimately, life is about finding our way, learning from our experiences, and continuing to move forward with hope, no matter what challenges come our way.</p>
+            <img
+              src="src/components/images/The Journey Of Life.jpg"
+              alt="The journey of life"
+            />
+            <br />
+            <p>
+              <a href="https://www.linkedin.com/in/uwttn/">LinkedIn</a>
+            </p>
+            <p>
+              <a href="https://github.com/Uwttn">GitHub</a>
+            </p>
+          </div>
+          <img
+            src="src/components/images/graduation.jpg"
+            class="card"
+            align="center"
+            style={{ width: "30%", height: "100%", display: "flex" }}
+          />
         </div>
-          <img src="src/components/images/graduation.jpg" class="card" align="center" style={{ width: '30%', height:'100%', display:'flex'}}/>
       </div>
-
-        
-      </div>
-
     </>
   );
 }
