@@ -1,6 +1,7 @@
 # coders guide
 reference
 package-lock.json
+.env
 
 # Logs
 logs
