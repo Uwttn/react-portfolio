@@ -76,14 +76,6 @@ LinkedIn: [uwttn](https://www.linkedin.com/in/uwttn)
 
 Email: muchati@icloud.com
 
-<!-- ACKNOWLEDGMENTS -->
-
-# Acknowledgments
-
-I would like to acknowledge Mary Elenius [@404pandas](https://github.com/404pandas) for providing the starter code.
-
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-
 ## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
