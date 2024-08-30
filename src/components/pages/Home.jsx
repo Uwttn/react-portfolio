@@ -112,6 +112,114 @@ export default function Home() {
           <img src="src/components/images/logo.png" alt="My  blog" />
         </div>
       </div>
+
+      <div
+        style={{
+          margin: "10px",
+          width: "100%",
+          height: "auto",
+          display: "flex",
+          justifyContent: "space-evenly"
+        }}
+      >
+        <div
+          class="card bg-primary-subtle"
+          align="center"
+          style={{ marginTop: "10px", width: "20%", height: "auto" }}
+        >
+          <a href="https://note-taker-xa68.onrender.com/">
+            <strong>note-taker</strong>
+          </a>
+          <img src="src/components/images/note.png" />
+        </div>
+
+        <div
+          class="card bg-primary-subtle"
+          align="center"
+          style={{ marginTop: "10px", width: "20%", height: "auto" }}
+        >
+          <a href="https://www.youtube.com/watch?v=-zgpXxu2_5c&list=PLk8XMm2RW3E87aiavU5ivWAPg0ldUqFru&index=3">
+            <strong>employee-tracker</strong>
+          </a>
+          <img src="src/components/images/employees.png" alt="weather" />
+        </div>
+
+        <div
+          class="card bg-primary-subtle"
+          align="center"
+          style={{ marginTop: "10px", width: "20%", height: "auto" }}
+        >
+          <a href="https://www.youtube.com/watch?v=8qXJz0RQ2d0&list=PLk8XMm2RW3E87aiavU5ivWAPg0ldUqFru&index=2">
+            <strong>e-commerce</strong>
+          </a>
+          <img src="src/components/images/commerce.png" alt=" Portfolio" />
+        </div>
+
+        <div
+          align="center"
+          class="card bg-primary-subtle"
+          style={{ marginTop: "20px", width: "20%", height: "auto" }}
+        >
+          <a href="https://github.com/Uwttn/regex-tutorial">
+            <strong>regex-tutorial</strong>
+          </a>
+          <img src="src/components/images/regex.png" alt="My  blog" />
+        </div>
+      </div>
+
+      <div
+        style={{
+          margin: "10px",
+          width: "100%",
+          height: "auto",
+          display: "flex",
+          justifyContent: "space-evenly"
+        }}
+      >
+        <div
+          class="card bg-primary-subtle"
+          align="center"
+          style={{ marginTop: "10px", width: "20%", height: "auto" }}
+        >
+          <a href="https://www.youtube.com/watch?v=j8khovpKqyU">
+            <strong>social-networking-API</strong>
+          </a>
+          <img src="src/components/images/network.png" />
+        </div>
+
+        <div
+          class="card bg-primary-subtle"
+          align="center"
+          style={{ marginTop: "10px", width: "20%", height: "auto" }}
+        >
+          <a href="https://code-editor-q9t4.onrender.com/">
+            <strong>code-editor</strong>
+          </a>
+          <img src="src/components/images/editor.png" alt="code-editor" />
+        </div>
+
+        <div
+          class="card bg-primary-subtle"
+          align="center"
+          style={{ marginTop: "10px", width: "20%", height: "auto" }}
+        >
+          <a href="">
+            <strong>coming soon...</strong>
+          </a>
+          <img src="" alt="" />
+        </div>
+
+        <div
+          align="center"
+          class="card bg-primary-subtle"
+          style={{ marginTop: "20px", width: "20%", height: "auto" }}
+        >
+          <a href="">
+            <strong>coming soon...</strong>
+          </a>
+          <img src="" alt="" />
+        </div>
+      </div>
     </div>
   );
 }
