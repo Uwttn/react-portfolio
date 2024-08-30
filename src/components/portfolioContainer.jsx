@@ -3,7 +3,7 @@ import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
 import Form from './pages/Contact';
-import MyPdfViewer from './pages/Resume';
+import Resume from './pages/Resume';
 
 export default function portfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -18,7 +18,7 @@ export default function portfolioContainer() {
         if (currentPage === 'Form') {
             return <Form />
         }
-            return <MyPdfViewer />
+            return <Resume />
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
