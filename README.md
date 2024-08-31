@@ -19,7 +19,7 @@
 ## About The Project
 
 This is a portfolio made with React
-![alt text](<src/components/deployed site.png>)
+
 ### Built With
 
 <div align="center">
