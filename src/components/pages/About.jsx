@@ -53,7 +53,7 @@ export default function About() {
         <div className={styles.section}>
           <div className="card bg-primary-subtle" align="center">
             <h1>
-              <strong>Jose Muchati</strong>
+              <strong>Jose</strong>
             </h1>
             <img
               src="https://avatars.githubusercontent.com/u/133266199?v=4"
