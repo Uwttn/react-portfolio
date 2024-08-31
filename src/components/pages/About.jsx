@@ -76,7 +76,7 @@ export default function About() {
                   matter what challenges come our way.
                 </p>
                 <img
-                  src="src/components/images/The Journey Of Life.jpg"
+                  src="https://github.com/user-attachments/assets/5a45eb51-330a-43dc-aae5-12c05fe4967e"
                   alt="The journey of life"
                 />
               </div>
