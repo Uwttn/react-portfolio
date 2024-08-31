@@ -5,25 +5,13 @@
 
 </div>
 
-<!-- PROJECT LOGO -->
-
-<div align="center">
-  <a href="">
-    <img src="src/components/images/website.png" alt="Logo" width="1000px" height="auto" border-radius="10px">
-  </a>
-</div>
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ul><a href="#about-the-project">About The Project</a></ul>
   <ul><a href="#built-with">Built With</a></ul>
-  <ul><a href="#getting-started">Getting Started</a></ul>
-  <ul><a href="#installation">Installation</a></ul>
-  <ul><a href="#usage">Usage</a></ul>
   <ul><a href="#contributing">Contributing</a></ul>
   <ul><a href="#contact">Contact</a></ul>
-  <ul><a href="#acknowledgments">Acknowledgments</a></ul>
 </details>
 
 <!-- ABOUT THE PROJECT -->
@@ -31,7 +19,6 @@
 ## About The Project
 
 This is a portfolio made with React
-
 
 ### Built With
 
@@ -45,15 +32,13 @@ This is a portfolio made with React
 [![React](https://img.shields.io/badge/Framework-React.js-ff0000?style=plastic&logo=React.js&logoWidth=10)](https://react.dev/)
 [![Homebrew](https://img.shields.io/badge/Framework-Homebrew-ff0000?style=plastic&logo=Homebrew&logoWidth=10)](https://brew.sh/)
 
-
-
 </div>
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
-This app is fully functional and live at:
+This app is fully functional and live at this [link](https://main--uwttn.netlify.app/)
 
 ## Contributing
 
