@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <body class="card" style={{ marginTop: "30px" }}>
       <h1 align="center" class="card bg-primary-subtle">
-        Jose Muchati's Deployed Projects
+        Jose's Deployed Projects
       </h1>
 
       <div className={styles.main}>
