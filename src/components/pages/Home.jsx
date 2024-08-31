@@ -2,7 +2,7 @@ import styles from "../css/style.module.css";
 
 export default function Home() {
   return (
-    <div class="card" style={{ marginTop: "30px" }}>
+    <body class="card" style={{ marginTop: "30px" }}>
       <h1 align="center" class="card bg-primary-subtle">
         Jose Muchati's Deployed Projects
       </h1>
@@ -264,6 +264,6 @@ export default function Home() {
           Multiple pages coming soon...
         </h1>
       </div>
-    </div>
+    </body>
   );
 }
