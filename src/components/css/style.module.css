@@ -1,15 +1,14 @@
 .main {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-content: center;
 
-    @media (max-width: 700px) {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap; /* Allows cards to wrap to the next line if needed */
-        gap: 20px; /* Adds spacing between cards */
-        flex-direction: column;
-        margin: 0 auto; /* Centers the content */
-        max-width: 2200px;
-    }
+  @media (max-width: 700px) {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: column;
+    max-width: 2000px;
+  }
 }
