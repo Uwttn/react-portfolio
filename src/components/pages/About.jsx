@@ -99,7 +99,7 @@ export default function About() {
                   <h1>
                     <strong>Jose Muchati</strong>
                   </h1>
-                  <img src="src/components/images/Me.jpeg" alt="me" />
+                  <img src="https://avatars.githubusercontent.com/u/133266199?v=4" alt="me" />
                   <p>
                     I am driven by a passion for personal growth and continuous
                     learning, embracing challenges with adaptability and
