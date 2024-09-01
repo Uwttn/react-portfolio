@@ -76,7 +76,7 @@ function Form() {
             value={text}
             name="text"
             onChange={handleInputChange}
-            placeholder="Input Text Here. If you are an employers, you can reach me at my LinkedIn. "
+            placeholder="Text"
           />
           <br />
           <button type="submit" className="btn btn-success">
