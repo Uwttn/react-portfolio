@@ -48,7 +48,7 @@ export default function Home() {
             <strong>payroll</strong>
           </a>
           <img
-            src="https://raw.githubusercontent.com/Uwttn/payroll/main/assets/image.png"
+            src="/assets/payroll.png"
             alt="Portfolio"
             style={{ height: "100%" }}
           />
