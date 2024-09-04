@@ -47,7 +47,7 @@ export default function About() {
               experiences, and continuing to move forward with hope, no
               matter what challenges come our way.
             </p>
-            <img src="https://raw.githubusercontent.com/Uwttn/react-portfolio/main/public/TheJourney.jpg" alt="The journey of life" />
+            <img src="/assets/journey.png" alt="The journey of life" />
           </div>
         </div>
         <div className={styles.section}>
