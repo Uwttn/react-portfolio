@@ -32,7 +32,7 @@ export default function Home() {
             <strong>portfolio</strong>
           </a>
           <img
-            src="https://raw.githubusercontent.com/Uwttn/portfolio/main/assets/portfolio.png"
+            src="https://github.com/Uwttn/portfolio/blob/main/assets/website-view.png?raw=true"
             alt="portfolio"
             style={{ height: "100%" }}
           />
