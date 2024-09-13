@@ -29,8 +29,8 @@ export default function PortfolioContainer() {
         if (currentPage === 'About') {
             return <About />;
         }
-        if (currentPage === 'Form') {
-            return <Form />;
+        // if (currentPage === 'Form') {
+        //     return <Form />;
         }
         return <Resume />;
     };
