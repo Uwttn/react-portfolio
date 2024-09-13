@@ -19,7 +19,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#Contact"
           onClick={() => handlePageChange("Form")}
@@ -27,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact Me
         </a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a
           href="#Resume"

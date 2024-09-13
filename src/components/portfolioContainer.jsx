@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import NavTabs from './NavTabs';
 import Home from './pages/Home';
 import About from './pages/About';
-import Form from './pages/Contact';
+// import Form from './pages/Contact';
 import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
@@ -31,7 +31,7 @@ export default function PortfolioContainer() {
         }
         // if (currentPage === 'Form') {
         //     return <Form />;
-        }
+        // }
         return <Resume />;
     };
 
