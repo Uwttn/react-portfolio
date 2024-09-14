@@ -92,69 +92,69 @@
 
 //       {/* Footer */}
 
-//       <div
-//         className="card"
-//         style={{
-//           width: "100%",
-//           height: "100px",
-//           background: "black",
-//           display: "flex",
-//           position: "fixed",
-//           bottom: "0",
-//         }}
-//       >
-//         <div
-//           style={{
-//             marginTop: "10px",
-//             width: "100%",
-//             height: "100%",
-//             textAlign: "center",
-//           }}
-//         >
-//           <button
-//             className="bg-primary"
-//             style={{ marginRight: "20px", borderRadius: "10px" }}
-//           >
-//             <a
-//               href="https://www.linkedin.com/in/uwttn/"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//             >
-//               <i
-//                 className="fab fa-linkedin"
-//                 style={{ margin: "20px", color: "white" }}
-//               ></i>
-//             </a>
-//           </button>
-//           <button
-//             className="bg-primary"
-//             style={{ marginRight: "20px", borderRadius: "10px" }}
-//           >
-//             <a
-//               href="https://github.com/Uwttn"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//             >
-//               <i
-//                 className="fab fa-github"
-//                 style={{ margin: "20px", color: "black" }}
-//               ></i>
-//             </a>
-//           </button>
-//           <button className="bg-primary" style={{ borderRadius: "10px" }}>
-//             <a
-//               href="https://www.youtube.com/playlist?list=PLk8XMm2RW3E87aiavU5ivWAPg0ldUqFru"
-//               target="_blank"
-//               rel="noopener noreferrer"
-//             >
-//               <i
-//                 className="fab fa-youtube"
-//                 style={{ margin: "20px", color: "red" }}
-//               ></i>
-//             </a>
-//           </button>
-//         </div>
-//       </div>
+      <div
+        className="card"
+        style={{
+          width: "100%",
+          height: "100px",
+          background: "black",
+          display: "flex",
+          position: "fixed",
+          bottom: "0",
+        }}
+      >
+        <div
+          style={{
+            marginTop: "10px",
+            width: "100%",
+            height: "100%",
+            textAlign: "center",
+          }}
+        >
+          <button
+            className="bg-primary"
+            style={{ marginRight: "20px", borderRadius: "10px" }}
+          >
+            <a
+              href="https://www.linkedin.com/in/uwttn/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                className="fab fa-linkedin"
+                style={{ margin: "20px", color: "white" }}
+              ></i>
+            </a>
+          </button>
+          <button
+            className="bg-primary"
+            style={{ marginRight: "20px", borderRadius: "10px" }}
+          >
+            <a
+              href="https://github.com/Uwttn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                className="fab fa-github"
+                style={{ margin: "20px", color: "black" }}
+              ></i>
+            </a>
+          </button>
+          <button className="bg-primary" style={{ borderRadius: "10px" }}>
+            <a
+              href="https://www.youtube.com/playlist?list=PLk8XMm2RW3E87aiavU5ivWAPg0ldUqFru"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i
+                className="fab fa-youtube"
+                style={{ margin: "20px", color: "red" }}
+              ></i>
+            </a>
+          </button>
+        </div>
+      </div>
 //     </>
 //   );
 // }
