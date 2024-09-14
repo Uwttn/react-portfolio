@@ -2,12 +2,15 @@ import styles from "../css/style.module.css";
 
 export default function Home() {
   return (
-    <body class="card" style={{ marginTop: "30px" }}>
-      <h1 align="center" class="card bg-primary-subtle">
+    <body className="card" style={{ marginTop: "30px" }}>
+      <h1 align="center" className="card bg-primary-subtle">
         Jose's Deployed Projects
       </h1>
-{/* Portfolio */}
+
+        {/* Start of container */}
       <div className={styles.main}>
+
+        {/* Portfolio */}
         <div
           className="card bg-primary-subtle"
           align="center"
@@ -22,7 +25,7 @@ export default function Home() {
           />
           <a href="https://github.com/Uwttn/portfolio">Repository</a>
         </div>
-{/* Payroll */}
+        {/* Payroll */}
         <div
           className="card bg-primary-subtle"
           align="center"
@@ -37,40 +40,43 @@ export default function Home() {
           />
           <a href="https://github.com/Uwttn/payroll">Repository</a>
         </div>
-{/* weather */}
+        {/* weather */}
         <div
           className="card bg-primary-subtle"
           align="center"
           style={{ marginTop: "10px", width: "20%", height: "auto" }}
         >
-           <a href="https://uwttn.github.io/weather/">
+          <a href="https://uwttn.github.io/weather/">
             <strong>Weather</strong>
           </a>
           <img
-             src="https://raw.githubusercontent.com/Uwttn/weather/main/assets/weather.png"
+            src="https://raw.githubusercontent.com/Uwttn/weather/main/assets/weather.png"
             alt="Portfolio"
             style={{ height: "100%" }}
           />
           <a href="">Repository</a>
         </div>
-{/* FlipIt */}
+        {/* FlipIt */}
         <div
           className="card bg-primary-subtle"
           align="center"
-          style={{ marginTop: "20px", width: "20%", height: "auto" }}
+          style={{ marginTop: "10px", width: "20%", height: "auto" }}
         >
           <a href="https://flipit-57ng.onrender.com/">
             <strong>FlipIt</strong>
           </a>
           <img
             src="https://github.com/user-attachments/assets/2ab1a638-e80f-4764-8242-1ca91d5e061a"
+            alt="Portfolio"
             style={{ height: "100%" }}
           />
           <a href="https://github.com/AllredW/FlipIt">Repository</a>
         </div>
+
+        {/* End of Container */}
       </div>
 
-{/* Footer */}
+      {/* Footer */}
       <div
         className="card"
         style={{
@@ -80,7 +86,7 @@ export default function Home() {
           display: "flex",
           position: "relative",
           bottom: "0",
-          marginTop: "20%"
+          marginTop: "20%",
         }}
       >
         <div
@@ -123,7 +129,6 @@ export default function Home() {
           </button>
         </div>
       </div>
-     
     </body>
   );
 }
