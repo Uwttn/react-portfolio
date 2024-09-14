@@ -63,8 +63,7 @@ export default function Home() {
             <strong>FlipIt</strong>
           </a>
           <img
-            src="public/assets/FlipIt.png"
-            alt="My blog"
+            src="https://github.com/user-attachments/assets/2ab1a638-e80f-4764-8242-1ca91d5e061a"
             style={{ height: "100%" }}
           />
           <a href="https://github.com/AllredW/FlipIt">Repository</a>
