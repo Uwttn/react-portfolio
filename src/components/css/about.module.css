@@ -1,57 +1,133 @@
 /* Main container for sections */
 .content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px; /* Spacing between sections */
-    margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Spacing between sections */
+  margin-top: 10px;
+}
+
+/* Container for each section to manage layout */
+.section {
+  flex: 1;
+  min-width: 300px; /* Ensures sections don't get too small */
+  background-color: var(
+    --bg-primary-subtle
+  ); /* Use a CSS variable or specify color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  align-items: center;
+
+  em {
+    text-align: left;
   }
-  
-  /* Container for each section to manage layout */
+}
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 700px) {
+  .content {
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+  }
+
   .section {
-    flex: 1;
-    min-width: 300px; /* Ensures sections don't get too small */
-    background-color: var(--bg-primary-subtle); /* Use a CSS variable or specify color */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    max-width: fit-content; /* Ensure sections use full width */
   }
-  
-  /* Responsive adjustment for smaller screens */
-  @media (max-width: 700px) {
-    .content {
-      flex-direction: column;
-      align-items: center; /* Center items vertically */
-    }
-  
-    .section {
-      max-width: fit-content; /* Ensure sections use full width */
-    }
-  }
-  
-  /* Ensure images fit well within their containers */
-  .content img {
-    max-width: fit-content;
-    height: fit-content;
-    align-self: flex-start;
-    border-radius: 30px;
+}
 
-    @media (max-width: 1300px) {
-        max-width: 80%;
-    }
-  }
+/* Ensure images fit well within their containers */
+.content img {
+  max-width: fit-content;
+  height: fit-content;
+  align-self: flex-start;
+  border-radius: 30px;
 
-  strong {
-    text-align: left;
+  @media (max-width: 1300px) {
+    max-width: 80%;
   }
+}
 
-  p {
-    list-style-position: outside;
-    text-align: left;
-  }
+strong {
+  text-align: left;
+}
 
-  ul {
-    list-style-position: outside;
-    padding-left: 20px;
-  }
-  
+p {
+  list-style-position: outside;
+  text-align: left;
+}
+
+ul {
+  list-style-position: outside;
+  padding-left: 20px;
+}
+
+button {
+  background-color: white;
+  border-radius: 20px !important;
+  border: solid 10px rgb(34, 99, 197);
+}
+
+/* FLIP CARD STARTS HERE */
+content {
+  display: flex;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flipCard {
+  background-color: transparent;
+  width: 300px;
+  height: 160px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  cursor: pointer;
+}
+
+/* This container is needed to position the front and back side */
+.flipCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Position the front and back side */
+.flipCardFront,
+.flipCardBack {
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flipCardFront {
+  background-color: rgb(66, 104, 227);
+  color: white;
+}
+
+/* Style the back side */
+.flipCardBack {
+  background-color: rgb(125, 113, 230);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flipCard.flipped .flipCardInner {
+  transform: rotateY(180deg);
+}
+
+#email {
+  color: white;
+}
+
+.contact {
+  width: 30px;
+}
+
+.text {
+  text-align: center;
+}

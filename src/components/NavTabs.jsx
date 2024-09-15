@@ -19,25 +19,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      {/* <li className="nav-item">
-        <a
-          href="#Contact"
-          onClick={() => handlePageChange("Form")}
-          className={currentPage === "Form" ? "nav-link active" : "nav-link"}
-        >
-          Contact Me
-        </a>
-      </li> */}
-
-      {/* <li className="nav-item">
-        <a
-          href="#Resume"
-          onClick={() => handlePageChange("Resume")}
-          className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
-        >
-          Resume
-        </a>
-      </li> */}
     </ul>
   );
 }
