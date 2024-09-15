@@ -11,7 +11,7 @@
   
   .nav-link:hover {
     background-color: var(--primary-color) !important;
-    color: var(--hover-text-color) !important;
+    font-weight: bold;
   }
   
   .nav-link.active {
