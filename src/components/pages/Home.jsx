@@ -23,7 +23,7 @@ export default function Home() {
             src="https://github.com/Uwttn/portfolio/blob/main/assets/website-view.png?raw=true"
             style={{ height: "100%" }}
           />
-          <a href="https://github.com/Uwttn/portfolio">Repository</a>
+          <a href="https://github.com/Uwttn/portfolio"><strong>Repository</strong></a>
         </div>
         {/* Payroll */}
         <div
@@ -38,7 +38,7 @@ export default function Home() {
             src="https://raw.githubusercontent.com/Uwttn/payroll/main/assets/image.png"
             style={{ height: "100%" }}
           />
-          <a href="https://github.com/Uwttn/payroll">Repository</a>
+          <a href="https://github.com/Uwttn/payroll"><strong>Repository</strong></a>
         </div>
         {/* weather */}
         <div
@@ -54,7 +54,7 @@ export default function Home() {
             alt="Portfolio"
             style={{ height: "100%" }}
           />
-          <a href="">Repository</a>
+          <a href="https://github.com/Uwttn/weather"><strong>Repository</strong></a>
         </div>
         {/* FlipIt */}
         <div
@@ -70,7 +70,7 @@ export default function Home() {
             alt="Portfolio"
             style={{ height: "100%" }}
           />
-          <a href="https://github.com/AllredW/FlipIt">Repository</a>
+          <a href="https://github.com/AllredW/FlipIt"><strong>Repository</strong></a>
         </div>
 
         {/* End of Container */}

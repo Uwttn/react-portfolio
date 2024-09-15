@@ -16,3 +16,11 @@ body {
     max-width: 2200px;
   }
 }
+
+li:hover {
+  background-color: var(--highlight-color);
+}
+
+strong:hover{
+  background-color: var(--highlight-color) !important;
+}

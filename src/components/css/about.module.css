@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #cfe2ff;
+  --highlight-color: #F5F5DC;
+}
+
 /* Main container for sections */
 .content {
   display: flex;
@@ -63,9 +68,13 @@ ul {
 }
 
 button {
-  background-color: white;
+  background-color: var(--primary-color);
   border-radius: 20px !important;
   border: solid 10px rgb(34, 99, 197);
+}
+
+button:hover {
+  background-color: var(--highlight-color);
 }
 
 /* FLIP CARD STARTS HERE */
@@ -95,6 +104,7 @@ content {
 /* Position the front and back side */
 .flipCardFront,
 .flipCardBack {
+  background-color: #cfe2ff;
   border-radius: 20px;
   position: absolute;
   width: 100%;
@@ -104,15 +114,16 @@ content {
 }
 
 /* Style the front side (fallback if image is missing) */
-.flipCardFront {
-  background-color: rgb(66, 104, 227);
-  color: white;
+.flipCardFront:hover {
+background-color: var(--highlight-color) ;
+}
+
+.flipCardBack:hover {
+  background-color: var(--highlight-color);
 }
 
 /* Style the back side */
 .flipCardBack {
-  background-color: rgb(125, 113, 230);
-  color: white;
   transform: rotateY(180deg);
 }
 
@@ -121,13 +132,22 @@ content {
 }
 
 #email {
-  color: white;
+  color: black;
+}
+
+#email:hover{
+  background-color: var(--primary-color);
 }
 
 .contact {
   width: 30px;
 }
 
+.contact:hover{
+  background-color: var(--secondary-colorr);
+}
+
 .text {
   text-align: center;
 }
+
