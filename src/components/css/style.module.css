@@ -1,3 +1,8 @@
+:root {
+  --primary-color: #cfe2ff;
+  --highlight-color: #F5F5DC;
+}
+
 body {
     overflow-x: hidden;
   }
@@ -17,10 +22,6 @@ body {
   }
 }
 
-li:hover {
-  background-color: var(--highlight-color);
-}
-
-strong:hover{
+.links:hover{
   background-color: var(--highlight-color) !important;
 }
