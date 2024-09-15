@@ -1,4 +1,4 @@
-import 'normalize.css';
+import '../src/components/css/normalize.css';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';

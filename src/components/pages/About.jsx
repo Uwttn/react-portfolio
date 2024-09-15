@@ -1,5 +1,6 @@
-import styles from "../css/about.module.css";
-import React, { useState } from "react";
+import "../css/about.css";
+import styles from "../css/flip.module.css"
+import { useState } from "react";
 
 const MyFlip = () => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -9,7 +10,8 @@ const MyFlip = () => {
   };
 
   return (
-    <content>
+
+<content>
       <div
         className={`${styles.flipCard} ${isFlipped ? styles.flipped : ""}`}
         onClick={toggleFlip}
@@ -49,12 +51,12 @@ export default function About() {
   return (
     <>
       {/* Education */}
-      <div className={styles.content}>
-        <div className={styles.section}>
-          <h1 className="bg-primary-subtle" style={{ borderRadius: 15 }}>
+      <div className="content">
+        <div className="section">
+          <h1 className="bg-primary-subtle">
             Education
           </h1>
-          <div className="card bg-primary-subtle">
+          <ul className="card bg-primary-subtle">
             <strong>University of Central Florida</strong>
             <em>Coding Bootcamp Certification - June 2024 - September 2024</em>
             <br />
@@ -66,7 +68,7 @@ export default function About() {
               Object-Oriented Programming (OOP), Computer Science Concepts,
               MERN, REST APIs.
             </p>
-            <div align="left">
+            <div>
               <strong>Florida Gulf Coast University</strong>
               <div>
                 <em>BA in Psychology - August 2020 - December 2022</em>
@@ -74,26 +76,26 @@ export default function About() {
               <strong>Cumulative GPA: 3.5 - Cum Laude</strong>
             </div>
             <br />
-            <div align="left">
+            <div>
               <strong>Immokalee Technical College</strong>
               <br />
               <em>Certificate of Completion January 2017 - June 2018</em>
             </div>
             <br />
-            <div align="left">
+            <div>
               <strong>Marjory Stoneman Douglas</strong>
               <br />
               <em>High School Diploma - August 2008 - April 2012</em>
             </div>
-          </div>
+          </ul>
         </div>
 
         {/* Employment */}
-        <div className={styles.section}>
-          <h1 className="bg-primary-subtle" style={{ borderRadius: 15 }}>
+        <div className="section">
+          <h1 className="bg-primary-subtle">
             Employment
           </h1>
-          <div className="card bg-primary-subtle" align="left">
+          <ul className="card bg-primary-subtle" align="left">
             <strong>Collier County Government – Facilities Management</strong>
             <em>Operations Coordinator – August 2023 – May 2024</em>
             <ul>
@@ -135,12 +137,12 @@ export default function About() {
                 document retrieval and office workflow.
               </li>
             </ul>
-          </div>
+          </ul>
         </div>
 
         <div>
         <div
-          className={styles.section}
+          className="section"
           style={{
             display: "flex",
             flexDirection: "column",

@@ -1,13 +1,13 @@
 :root {
   --primary-color: #cfe2ff;
-  --highlight-color: #F5F5DC;
+  --highlight-color: #f5f5dc;
 }
 
 body {
-    overflow-x: hidden;
-  }
-  
-  .main {
+  overflow-x: hidden;
+}
+
+.main {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -22,6 +22,12 @@ body {
   }
 }
 
-.links:hover{
-  background-color: var(--highlight-color) !important;
+.resize {
+  margin-top: 10px;
+  width: 20%;
+  height: auto;
+}
+
+a {
+  text-align: center;
 }

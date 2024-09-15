@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #cfe2ff; 
+  --highlight-color: #F5F5DC;
+}
+
+
+.nav-link {
+    background-color: var(--primary-color) !important;
+    color: var(--text-color) !important;
+  }
+  
+  .nav-link:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--hover-text-color) !important;
+  }
+  
+  .nav-link.active {
+    background-color: var(--highlight-color) !important;
+  }
+  
+  .nav-link.active:hover {
+    background-color: var(--highlight-color) !important;
+  }
+  
