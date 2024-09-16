@@ -23,6 +23,9 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 
   h1 {
     text-align: center;
@@ -58,6 +61,8 @@ h1 {
 
   @media (max-width: 1300px) {
     max-width: 80%;
+    align-self: center;
+    margin-top: 15px;
   }
 }
 

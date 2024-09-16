@@ -1,5 +1,6 @@
 import "../css/about.css";
-import styles from "../css/flip.module.css"
+import "../css/flip.css";
+import MySafari from "../browser-compatability/safari";
 import { useState } from "react";
 
 const MyFlip = () => {
@@ -10,40 +11,33 @@ const MyFlip = () => {
   };
 
   return (
-
-<content>
+    <main>
       <div
-        className={`${styles.flipCard} ${isFlipped ? styles.flipped : ""}`}
+        className={`flip-card ${isFlipped ? "flipped" : ""}`}
         onClick={toggleFlip}
       >
-        <div className={styles.flipCardInner}>
-          <div className={styles.flipCardFront}>
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
             <h1>Click Me!</h1>
-            <p className={styles.text}>
+            <p className="text">
               Open to working with teams of all sizes and backgrounds to create
               innovative solutions.
             </p>
           </div>
-          <div className={styles.flipCardBack}>
+          <div className="flip-card-back">
             <h1>Jose Muchati</h1>
-            <p className={styles.text}>
-              <a href="mailto:muchati@icloud.com" id={styles.email}>
+            <p className="text">
+              <a href="mailto:muchati@icloud.com" id="email">
                 Email Me
               </a>
               <br />
               <strong>Actively seeking opportunities.</strong>
             </p>
-
-            <a href="https://www.linkedin.com/in/uwttn/">
-              <img className={styles.contact} src="/assets/LinkedIn.png" />
-            </a>
-            <a href="https://github.com/Uwttn">
-              <img className={styles.contact} src="/assets/github.png" />
-            </a>
+            <MySafari />
           </div>
         </div>
       </div>
-    </content>
+    </main>
   );
 };
 
@@ -53,9 +47,7 @@ export default function About() {
       {/* Education */}
       <div className="content">
         <div className="section">
-          <h1 className="bg-primary-subtle">
-            Education
-          </h1>
+          <h1 className="bg-primary-subtle">Education</h1>
           <ul className="card bg-primary-subtle">
             <strong>University of Central Florida</strong>
             <em>Coding Bootcamp Certification - June 2024 - September 2024</em>
@@ -92,9 +84,7 @@ export default function About() {
 
         {/* Employment */}
         <div className="section">
-          <h1 className="bg-primary-subtle">
-            Employment
-          </h1>
+          <h1 className="bg-primary-subtle">Employment</h1>
           <ul className="card bg-primary-subtle" align="left">
             <strong>Collier County Government – Facilities Management</strong>
             <em>Operations Coordinator – August 2023 – May 2024</em>
@@ -141,22 +131,17 @@ export default function About() {
         </div>
 
         <div>
-        <div
-          className="section"
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyItems: "center",
-          }}
-        >
-          <MyFlip />
-          <img src="https://avatars.githubusercontent.com/u/133266199?s=400&u=5b64529ee80188424d5e6f6206bbb62cf84ea6d3&v=4" />
-          <br />
-          <a href="assets/Resume.pdf">
-            <button>Download My Resume</button>
-          </a>
+          <div
+            className="section"
+          >
+            <MyFlip />
+            <img src="https://avatars.githubusercontent.com/u/133266199?s=400&u=5b64529ee80188424d5e6f6206bbb62cf84ea6d3&v=4" />
+            <br />
+            <a href="assets/Resume.pdf">
+              <button>Download My Resume</button>
+            </a>
+          </div>
         </div>
-      </div>
       </div>
     </>
   );
