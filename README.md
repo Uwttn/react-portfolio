@@ -1,20 +1,10 @@
 <div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](https://www.linkedin.com/in/uwttn/)
+[![Contributors](https://img.shields.io/github/contributors/uwttn/tech-blog.svg?style=plastic&logo=appveyor)](https://github.com/uwttn/tech-blog/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/uwttn/tech-blog.svg?style=plastic&logo=appveyor)](https://github.com/uwttn/tech-blog/network/members)
+[![Stargazers](https://img.shields.io/github/stars/uwttn/tech-blog.svg?style=plastic&logo=appveyor)](https://github.com/uwttn/tech-blog/stargazers)
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ul><a href="#about-the-project">About The Project</a></ul>
-  <ul><a href="#built-with">Built With</a></ul>
-  <ul><a href="#contributing">Contributing</a></ul>
-  <ul><a href="#contact">Contact</a></ul>
-</details>
-
-<!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
@@ -49,15 +39,41 @@ Suggest feautures: Do you have an idea for a new feature? Share it with us!
 Contribute code: If you have programming skills, feel free to contribute code to the project.
 Provide feedback: Your feedback on the project is valuable. Let us know what you think!
 
-<!-- CONTACT -->
+## More About Me
 
-## Contact
+I am a dedicated, enthusiastic professional with skills in data analysis and coding. Currently, I am honing my skills through the UCF coding Bootcamp, where I have learned a strong foundation in multiple programming languages and terminal commands. I am improving and growing at utilizing tools, such as Visual Studio code, GitHub, and GitLab.
 
-GitHub: [uwttn](https://github.com/uwttn)
+After the Bootcamp, I am looking to work in an organization with people who are passionate about technology and open to innovation. I want to contribute to meaningful projects and drive success through collaborative efforts.
 
-LinkedIn: [uwttn](https://www.linkedin.com/in/uwttn)
+## Goals
 
-E-Mail: muchati@icloud.com
+- To secure a position that utilizes my skills and experiences while offering opportunities for growth and advancement.
+- To provide employers with information in which they can make inform decision on whethers I  would be an asset to their organization.
+
+## My top qualities
+
+- Detailed-oriented and problem-solving
+- Time Management and Adaptability
+- Strong organizational abilities
+
+## ArcGIS Background
+
+### Mapping and Area Planning:
+
+I have experience in creating detailed maps to outline maintenance areas for landscaping, utilizing the most current aerial photos to ensure accuracy and up-to-date information.
+
+### Data Integration and Visualization:
+
+I've worked on projects where lintegrated address data from spreadsheets into maps. This allowed us to visually pinpoint and organize locations, enhancing our ability to plan and coordinate field operations effectively.
+
+### Application Development for Field Use:
+
+Thave built easy-to-use digital mapping tools that help field teams access and display geographical information on-the-go. These tools are particularly useful for our partners and vendors who need to access map-based information remotely.
+
+### Analysis for Planning and Reporting:
+
+Using mapping software, I've analyzed geographic areas to calculate properties like size and perimeter. This analysis has been crucial for planning purposes and has been presented to stakeholders through clear, informative visual presentations.
+
 
 ## React + Vite
 
@@ -67,3 +83,13 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+<!-- CONTACT -->
+
+## Contact
+
+[GitHub](https://github.com/uwttn)
+
+[LinkedIn](https://www.linkedin.com/in/uwttn)
+
+[E-Mail](mailto:muchati@icloud.com)
