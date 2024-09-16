@@ -41,9 +41,9 @@ Provide feedback: Your feedback on the project is valuable. Let us know what you
 
 ## More About Me
 
-I am a dedicated, enthusiastic professional with skills in data analysis and coding. Currently, I am honing my skills through the UCF coding Bootcamp, where I have learned a strong foundation in multiple programming languages and terminal commands. I am improving and growing at utilizing tools, such as Visual Studio code, GitHub, and GitLab.
+I am a dedicated, enthusiastic professional with skills in data analysis and coding. Currently, I graduated from the UCF coding Bootcamp, where I have learned a strong foundation in multiple programming languages and terminal commands.
 
-After the Bootcamp, I am looking to work in an organization with people who are passionate about technology and open to innovation. I want to contribute to meaningful projects and drive success through collaborative efforts.
+Also, I am looking to work in an organization with people who are passionate about technology and open to innovation. I want to contribute to meaningful projects and drive success through collaborative efforts.
 
 ## Goals
 
