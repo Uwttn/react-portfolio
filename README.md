@@ -68,7 +68,7 @@ I've worked on projects where lintegrated address data from spreadsheets into ma
 
 ### Application Development for Field Use:
 
-Thave built easy-to-use digital mapping tools that help field teams access and display geographical information on-the-go. These tools are particularly useful for our partners and vendors who need to access map-based information remotely.
+I built easy-to-use digital mapping tools that help field teams access and display geographical information on-the-go. These tools are particularly useful for our partners and vendors who need to access map-based information remotely.
 
 ### Analysis for Planning and Reporting:
 
