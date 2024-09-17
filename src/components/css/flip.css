@@ -77,25 +77,31 @@ main {
   text-align: center;
 }
 
-
-
-.contact {
-  object-fit: contain; /* Ensures the image fits inside its container without distortion */
-  width: 30px;
-}
-
 /* Safari & chrome compatability */
 
 .safari-styles {
   .logo-container {
-    position: relative;
-    bottom: 140px;
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    width: 300px;
+    justify-content: center;
+  }
+  .contact {
+    object-fit: contain;
+    width: 30px;
+    height: 30px;
   }
 }
 
 .default-styles {
   .logo-container {
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
+  }
+  .contact {
+    object-fit: contain; /* Ensures the image fits inside its container without distortion */
+    width: 30px;
+    height: 30px;
   }
 }

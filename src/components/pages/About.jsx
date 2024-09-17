@@ -26,14 +26,14 @@ const MyFlip = () => {
           </div>
           <div className="flip-card-back">
             <h1>Jose Muchati</h1>
-            <p className="text">
+            <div className="text">
               <a href="mailto:muchati@icloud.com" id="email">
                 Email Me
               </a>
               <br />
               <strong>Actively seeking opportunities.</strong>
-            </p>
             <MySafari />
+            </div>
           </div>
         </div>
       </div>
