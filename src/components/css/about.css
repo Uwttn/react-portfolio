@@ -54,9 +54,9 @@ h1 {
 
 /* Ensure images fit well within their containers */
 .content img {
-  max-width: fit-content;
+  max-width: 200px;
   height: fit-content;
-  align-self: flex-start;
+  align-self: center;
   border-radius: 30px;
 
   @media (max-width: 1300px) {
@@ -79,4 +79,8 @@ button {
 
 button:hover {
   background-color: var(--highlight-color);
+}
+
+footer {
+  
 }
