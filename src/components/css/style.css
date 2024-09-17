@@ -37,3 +37,7 @@
   display: flex;
   justify-content: center;
 }
+
+.links:hover {
+background-color: var(--highlight-color);
+}

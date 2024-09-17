@@ -54,7 +54,7 @@ h1 {
 
 /* Ensure images fit well within their containers */
 .content img {
-  max-width: 200px;
+  max-width: 320px;
   height: fit-content;
   align-self: center;
   border-radius: 30px;
@@ -81,6 +81,15 @@ button:hover {
   background-color: var(--highlight-color);
 }
 
-footer {
-  
+#head{
+  font-weight: bold;
+}
+
+tr {
+  text-align: center;
+
+}
+
+td{
+  border: solid black 5px !important;
 }

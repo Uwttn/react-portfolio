@@ -61,6 +61,44 @@ export default function About() {
             enjoy creating clean, efficient code that powers user-friendly
             applications, and I'm always looking to expand my skills.
           </p>
+
+{/* Proficient with these languages */}
+          <h1>Proficient in:</h1>
+          <table>
+          <tr>
+            <td id="head">Technologies</td>
+            <td id="head">Description</td>
+          </tr>
+          <tr>
+            <td>HTML/CSS</td>
+            <td>extensive experience working with these, focusing on clean code and styling across browsers.</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>worked with JavaScript for functionality, including dynamic elements like NavBars, clocks, and JSON-based data structures.</td>
+          </tr>
+          <tr>
+            <td>Bootstrap</td>
+            <td>Used Bootstrap for styling in my React portfolio.</td>
+          </tr>
+          <tr>
+            <td>Node.js</td>
+            <td>worked on backend projects using Node.js, specifically in conjunction with MongoDB and Apollo for GraphQL.</td>
+          </tr>
+          <tr>
+            <td>GraphQL</td>
+            <td>familiar with mutations for creating, updating, and removing entities like users, decks, and cards.</td>
+          </tr>
+          <tr>
+            <td>MongoDB</td>
+            <td>Working on improving skills with this database technology for backend development.</td>
+          </tr>
+          <tr>
+            <td>Git</td>
+            <td>Used GitHub for version control and have implemented functionality on my website, like the flip card with GitHub and LinkedIn logos.</td>
+          </tr>
+      </table>
+
         </div>
         <div className="section">
           <h1>Achievements</h1>
