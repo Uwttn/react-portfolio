@@ -83,7 +83,6 @@ main {
   .logo-container {
     position: absolute;
     display: flex;
-    bottom: 10px;
     width: 300px;
     justify-content: center;
   }
@@ -97,7 +96,6 @@ main {
 .default-styles {
   .logo-container {
     position: relative;
-    bottom: 10px;
   }
   .contact {
     object-fit: contain; /* Ensures the image fits inside its container without distortion */
