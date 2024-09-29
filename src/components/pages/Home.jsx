@@ -3,15 +3,83 @@ import "../css/style.css";
 export default function Home() {
   return (
     <>
-    <div className="card">
-      <h1 align="center" className="card bg-primary" id="header">
-        Jose's Deployed Projects
-      </h1>
+    {/* Card Starts here */}
+      <div className="card">
+        <h1 align="center" className="card bg-primary" id="header">
+          Jose's Deployed Projects
+        </h1>
+        <Resume />
+        <div className="main">
+          <RowOne />
+        </div>
+        <div className="main">
+        {/* <RowTwo /> */}
+        </div>
 
-      {/* Start of "main" container */}
-      <div className="main">
+      </div> 
+      {/* Card Ends here */}
+    </>
+  );
+}
+
+function RowOne() {
+  return (
+    <>
         {/* Portfolio */}
-        <div className="card bg-primary-subtle resize" >
+        <div className="card bg-primary-subtle resize">
+          <a href="https://www.youtube.com/watch?v=eP6vSEuVqBo&t=9s">
+            <strong className="links">README Generator</strong>
+          </a>
+          <img src="assets/README.png" />
+          <a href="https://github.com/Uwttn/readme-generator">
+            <strong className="links">Repository</strong>
+          </a>
+        </div>
+        {/* Payroll */}
+        <div className="card bg-primary-subtle resize">
+          <a href="https://uwttn.github.io/payroll/">
+            <strong className="links">Payroll</strong>
+          </a>
+          <img src="assets/payroll.png" />
+          <a href="https://github.com/Uwttn/payroll">
+            <strong className="links">Repository</strong>
+          </a>
+        </div>
+        {/* weather */}
+        <div className="card bg-primary-subtle resize">
+          <a href="https://uwttn.github.io/weather/">
+            <strong className="links">Weather</strong>
+          </a>
+          <img
+            src="assets/weather.png"
+            alt="Portfolio"
+          />
+          <a href="https://github.com/Uwttn/weather">
+            <strong className="links">Repository</strong>
+          </a>
+        </div>
+        {/* Portfolio */}
+        <div className="card bg-primary-subtle resize">
+          <a href="https://uwttn.github.io/portfolio/">
+            <strong className="links">Portfolio</strong>
+          </a>
+          <img
+            src="assets/portfolio.png"
+            alt="Portfolio"
+          />
+          <a href="https://github.com/Uwttn/portfolio">
+            <strong className="links">Repository</strong>
+          </a>
+        </div>
+    </>
+  );
+}
+
+function RowTwo() {
+  return (
+    <>
+        {/* README Generator */}
+        <div className="card bg-primary-subtle resize">
           <a href="https://www.youtube.com/watch?v=eP6vSEuVqBo&t=9s">
             <strong className="links">README Generator</strong>
           </a>
@@ -56,14 +124,16 @@ export default function Home() {
             <strong className="links">Repository</strong>
           </a>
         </div>
-      </div>
-      {/* End of "main" Container */}
-    </div>
-    <div>
-          <a href="assets/Resume 2024.09.29.pdf">
-            <button>Download My Resume</button>
-          </a>
-    </div>
     </>
+  );
+}
+
+function Resume() {
+  return (
+    <div className="info">
+      <a href="assets/Resume 2024.09.29.pdf">
+        <button>Download My Resume</button>
+      </a>
+    </div>
   );
 }

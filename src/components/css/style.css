@@ -6,12 +6,32 @@
   color: white;
 }
 
+.info {
+background-color: cornflowerblue;
+display: flex;
+justify-content: center;
+
+button {
+  border-radius: 10px;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+
+}
+
+button:hover {
+color: white;
+background-color: darkblue;
+transform: scale(1.1);
+font-size: 18px;
+}
+}
+
 .main {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   align-content: center;
   object-fit: contain;
+  background-color: black;
 
   @media (max-width: 700px) {
     align-self: center;
@@ -39,8 +59,11 @@
 .links{
   display: flex;
   justify-content: center;
+  transition: transform 0.3s ease, font-size 0.3s ease;
 }
 
 .links:hover {
 background-color: var(--highlight-color);
+transform: scale(1.1);
+font-size: 18px;
 }
