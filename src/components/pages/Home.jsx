@@ -24,7 +24,7 @@ export default function Home() {
           <a href="https://uwttn.github.io/payroll/">
             <strong className="links">Payroll</strong>
           </a>
-          <img src="https://raw.githubusercontent.com/Uwttn/payroll/main/assets/image.png" />
+          <img src="assets/payroll.png" />
           <a href="https://github.com/Uwttn/payroll">
             <strong className="links">Repository</strong>
           </a>
