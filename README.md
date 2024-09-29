@@ -28,7 +28,7 @@ This is a portfolio made with React
 
 ## Getting Started
 
-This app is fully functional and live at this [link](https://main--uwttn.netlify.app/)
+This app is fully functional and live at this [link](https://jymuch.netlify.app/)
 
 ## Contributing
 

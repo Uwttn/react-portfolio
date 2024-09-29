@@ -5,20 +5,20 @@
 
 
 .nav-link {
-    background-color: var(--primary-color) !important;
-    color: var(--text-color) !important;
+    background-color: var(--primary-color);
+    color: var(--text-color) ;
   }
   
   .nav-link:hover {
-    background-color: var(--primary-color) !important;
+    background-color: var(--primary-color);
     font-weight: bold;
   }
   
   .nav-link.active {
-    background-color: var(--highlight-color) !important;
+    background-color: var(--highlight-color);
   }
   
   .nav-link.active:hover {
-    background-color: var(--highlight-color) !important;
+    background-color: var(--highlight-color);
   }
   
