@@ -11,11 +11,11 @@ export default function Home() {
       <div className="main">
         {/* Portfolio */}
         <div className="card bg-primary-subtle resize" >
-          <a href="#" title="In-Development">
-            <strong className="links">Tech Blog | in-development</strong>
+          <a href="https://www.youtube.com/watch?v=eP6vSEuVqBo&t=9s">
+            <strong className="links">README Generator</strong>
           </a>
-          <img src="https://raw.githubusercontent.com/Uwttn/tech-blog/main/assets/images/demo/tech-blog.png" />
-          <a href="https://github.com/Uwttn/tech-blog">
+          <img src="assets/README.png" />
+          <a href="https://github.com/Uwttn/readme-generator">
             <strong className="links">Repository</strong>
           </a>
         </div>
