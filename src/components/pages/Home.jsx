@@ -2,12 +2,13 @@ import "../css/style.css";
 
 export default function Home() {
   return (
+    <>
     <div className="card">
       <h1 align="center" className="card bg-primary" id="header">
         Jose's Deployed Projects
       </h1>
 
-      {/* Start of container */}
+      {/* Start of "main" container */}
       <div className="main">
         {/* Portfolio */}
         <div className="card bg-primary-subtle resize" >
@@ -56,7 +57,13 @@ export default function Home() {
           </a>
         </div>
       </div>
-      {/* End of Container */}
+      {/* End of "main" Container */}
     </div>
+    <div>
+          <a href="assets/Resume 2024.09.29.pdf">
+            <button>Download My Resume</button>
+          </a>
+    </div>
+    </>
   );
 }
