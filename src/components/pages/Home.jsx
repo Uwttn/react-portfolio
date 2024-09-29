@@ -3,7 +3,7 @@ import "../css/style.css";
 export default function Home() {
   return (
     <div className="card">
-      <h1 align="center" className="card bg-primary-subtle">
+      <h1 align="center" className="card bg-primary" id="header">
         Jose's Deployed Projects
       </h1>
 

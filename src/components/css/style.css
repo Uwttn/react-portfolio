@@ -1,6 +1,9 @@
 :root {
-  --primary-color: #cfe2ff;
   --highlight-color: #f5f5dc;
+}
+
+#header {
+  color: white;
 }
 
 .main {

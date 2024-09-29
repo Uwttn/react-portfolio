@@ -4,12 +4,10 @@ export default function About() {
   return (
     <>
       <div className="content">
-        <div className="section">
           <br />
           <a href="assets/Resume 2024.09.29.pdf">
             <button>Download My Resume</button>
           </a>
-        </div>
         <div className="section">
           <h1>Passions</h1>
           <p>
