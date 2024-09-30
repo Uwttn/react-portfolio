@@ -98,8 +98,23 @@
 
   a {
     display: flex;
-    justify-content: flex-end;
   }
+
+  img {
+    width: 50px;
+    transition: transform 0.3s ease;
+    padding: 10px;
+  }
+
+  img:hover {
+    transform: scale(1.5);
+  }
+}
+
+
+.resume {
+  display: flex;
+  justify-content: center;
 
   button {
     border-radius: 10px;
@@ -111,15 +126,5 @@
     background-color: var(--highlight-color);
     transform: scale(1.2);
     font-size: 18px;
-  }
-
-  img {
-    width: 50px;
-    transition: transform 0.3s ease;
-    padding: 10px;
-  }
-
-  img:hover {
-    transform: scale(1.5);
   }
 }

@@ -138,9 +138,6 @@ function Footer() {
       <a href="https://www.linkedin.com/in/uwttn/">
         <img src="assets/LinkedIn.png" />
       </a>
-      <a href="assets/Resume 2024.09.29.pdf">
-        <button>Download My Resume</button>
-      </a>
     </div>
   );
 }
