@@ -110,21 +110,3 @@
     transform: scale(1.5);
   }
 }
-
-
-.resume {
-  display: flex;
-  justify-content: center;
-
-  button {
-    border-radius: 10px;
-    background-color: var(--primary-color);
-    transition: transform 0.3s ease, font-size 0.3s ease;
-  }
-
-  button:hover {
-    background-color: var(--highlight-color);
-    transform: scale(1.2);
-    font-size: 18px;
-  }
-}
